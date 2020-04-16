@@ -5,6 +5,7 @@ import api from '../../services/api';
 import './styles.css';
 
 import Logo from '../../Components/Logo';
+import Button from '../../Components/Button';
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -55,7 +56,7 @@ export default function Login() {
           onChange={e => { setPassword(e.target.value) }}
         />
         <Link to="/reset">Forgot password?</Link>
-        <button type="submit">LOGIN</button>
+        <Button type="submit">LOGIN</Button>
       </form>
       <p>Not registered? <Link to="/register">Create an account.</Link></p>
     </div>

@@ -5,6 +5,7 @@ import api from '../../services/api';
 import './styles.css';
 
 import Logo from '../../Components/Logo';
+import Button from '../../Components/Button';
 
 export default function Register() {
   const [email, setEmail] = useState('');
@@ -52,7 +53,7 @@ export default function Register() {
           value={password}
           onChange={e => { setPassword(e.target.value) }}
         />
-        <button type="submit">SIGN UP</button>
+        <Button type="submit">SIGN UP</Button>
       </form>
       <p>Already signed up? <Link to="/login">Login to your account.</Link></p>
     </div>

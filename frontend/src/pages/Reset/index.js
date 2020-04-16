@@ -5,7 +5,7 @@ import api from '../../services/api';
 import './styles.css';
 
 import Logo from '../../Components/Logo';
-
+import Button from '../../Components/Button';
 
 export default function Reset() {
   const [email, setEmail] = useState('');
@@ -65,7 +65,7 @@ export default function Reset() {
           value={email}
           onChange={e => { setEmail(e.target.value) }}
         />
-        <button type="submit">RESET</button>
+        <Button type="submit">RESET</Button>
       </form>
       <p><Link to="/login">Back to login</Link></p>
     </div>

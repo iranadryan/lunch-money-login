@@ -5,7 +5,7 @@ import api from '../../services/api';
 import './styles.css';
 
 import Logo from '../../Components/Logo';
-
+import Button from '../../Components/Button';
 
 export default function ChangePassword() {
   const [code, setCode] = useState('');
@@ -81,7 +81,7 @@ export default function ChangePassword() {
           value={password}
           onChange={e => { setPassword(e.target.value) }}
         />
-        <button type="submit">CHANGE</button>
+        <Button type="submit">CHANGE</Button>
       </form>
       <p><Link to="/login">Back to login</Link></p>
     </div>
