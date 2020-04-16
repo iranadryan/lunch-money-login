@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "email": "contato@iran.com",
+      "name": "Iran Adryan",
+      "password": "password",
+      "id": 1
+    },
+    {
+      "email": "contato@gycilla.com",
+      "name": "Gycilla Ribeiro",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "email": "contato@awm.com",
+      "name": "AWM Free Fire",
+      "password": "freefire",
+      "id": 3
+    },
+    {
+      "email": "react@js.com",
+      "name": "ReactJS",
+      "password": "pass",
+      "id": 4
+    },
+    {
+      "email": "pass@word.com",
+      "name": "PassWord",
+      "password": "password",
+      "id": 5
+    }
+  ],
+  "password-changes": []
+}
