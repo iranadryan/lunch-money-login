@@ -1,7 +1,7 @@
-﻿<p align="center" color="#170C3A" style="font-size: 32px; font-weight: bold">
+﻿<h1 align="center" color="#170C3A">
 <img src="frontend/src/assets/logo.png" width="80"/><br/>
 Lunch Money!
-</p>
+</h1>
 
 ## Sobre
 Aplicação que simula rotas de autenticação no frontend com uma fake API Rest no backend para uma utilização mais real.
