@@ -1,40 +1,44 @@
-﻿# Lunch Money Login
+﻿<h1 align="center" color="#170C3A">
+<img src="frontend/src/assets/logo.png" width="80"/><br/>
+Lunch Money!
+</h1>
 
-Uma aplicação de estudo front-end desenvolvida com **ReactJS** e com uma fake api rest **JSON Server** rodando no back-end para uma utilização mais dinâmica. A aplicação não tem foco a não ser para simulação de rotas de autenticação.
-#### Principais Funcionalidades e Rotas:
+## Sobre
+Aplicação que simula rotas de autenticação no frontend com uma fake API Rest no backend para uma utilização mais real.
 
- - Login                `/login`
- - Cadastro          `/register`
- - Trocar senha    `/reset`
+### Principais Rotas
+- Login        `/login`
+- Cadastro     `/register`
+- Mudar senha  `/resset`
 
-## Como Startar a Aplicação?
- 
- ### Back-end 
-Instale o JSON server		
-   
-    $ npm install -g json-server
+## Tecnologias
+Criado com:
+- [x] **ReactJS** 
+- [x] **JSON Server**
 
-Inicie a api
+## Resultados
+<p align="center"><img src="LunchMoney.png" alt="Lunch Money mockup" /></p>
 
-    $ cd backend json-server --watch db.json
-    
-A partir desse momento a api rest vai estar rodando na porta `3333`
+## Execute a aplicação
+### Back-end
+```sh
+#Instale o JSON Server
+$ npm install -g json-server
 
+#Inicie a API
+$ cd backend
+$ json-server --watch db.json
+```
 ### Front-end
-Instale as dependências do front-end
+```sh
+#Instale as dependências
+$ cd frontend
+$ npm install
 
-    $ cd ../frontend && yarn install || npm install
-    
-Inicie a aplicação
+#Inicie a aplicação
+$ npm start
+```
+A aplicação vai está rodando em [http://localhost:3000](http://localhost:3000)
 
-    $ yarn start || npm start
-
-A partir desse momento a aplicação vai estar rodando na porta `3000`
-
-#
-
-**Iran Adryan Medeiros Batista**
-
-**Email:** [contatoiranadryan@gmail.com](mailto:contatoiranadryan@gmail.com?subject=GitHub%20App)
-
-**Instagram:** [@iranadryan](https://www.instagram.com/iranadryan/)
+## License
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/iranadryan/lunch-money-login/blob/master/LICENSE) para mais detalhes.
